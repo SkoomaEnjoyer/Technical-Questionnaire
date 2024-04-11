@@ -1,0 +1,28 @@
+This text explains how the user interface will be done.
+#Initial Page Content and Page Interface
+
+-The user interface will be divided into two. The first half is for displaying users and the second half is for us to sign the users up. We will divide the interface vertically through the middle.
+
+-On the top of the interface, we must have a bar where we add a new user, hide or unhide a disabled user, and save a user.
+
+-On the left corner, we must have a rectangle box where we can add a new user. When we click on that box, we must receive an empty form for adding a new user
+
+-To the bottom left of that box, there must be an empty small box where we mark or unmark and it is for hiding or unhiding a disabled user. 
+On the right corner, there is a “save user” box. We save the user’s profile by clicking on that box.
+
+-The user list of the server should be empty. As users join, basic information about the users should be displayed on a table. 
+There should be 4 columns on this table. From the first to the last, these columns are ID, User Name, Email, and Enabled. ID is the user’s id and it is an integer value. The user name is a string and there is no character value, email is the email which the user signs in with, lastly we will have a boolean value of true/false for the enabled column. 
+
+-We must be able to sort users according to the columns. For instance, users can be sorted according to increasing/decreasing ID numbers,
+their user names in alphabetical order, emails in alphabetical order, or according to their state of true/false.
+
+#User Creation and Interface
+
+-When the user is signed in, we must ask them for their username, display name, phone, email, and user role. These questions should be asked one under the other parallel bars. 
+Wee will write the strings to the rows of “Username:”,” Display Name:”, “Phone:”, and “Email:”.
+
+-We will click on “User roles:” and we will choose either guest, admin, or super admin. On the bottom left of the user creation part, 
+we will have a user box where we will determine if the “enable” condition of the user is “true” or “false”. The user will put a checkmark to indicate if he/she is enabled. 
+
+-After submitting the form, we must see the new user on the display table.
+ 
